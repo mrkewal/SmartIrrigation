@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".UserData">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="357dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="32dp"
+        android:text="Your Current SoilMoisture Is:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0CE615"
+        android:textSize="30sp" />
+
+
+    // Button 1, for low water level
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="243dp"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="515dp"
+        android:text="Loading"
+        android:textAlignment="center"
+        android:textColor="#0CE315"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp" />
+
+    // Button 2, for medium water level
+
+    // Button 3, for High water level
+
+    <Button
+        android:id="@+id/Low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="277dp"
+        android:text="LOW"
+        android:textColor="#F44336" />
+
+    <Button
+        android:id="@+id/Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="277dp"
+        android:text="Medium"
+        android:textColor="#009688" />
+
+    <Button
+        android:id="@+id/High"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="277dp"
+        android:text="High"
+        android:textColor="#093DD8" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="336dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:text="Water Level"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/AboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="134dp"
+        android:clickable="true"
+        android:text="About Us"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="61dp"
+        android:text="Logout"
+        android:onClick="logout"/>
+
+</RelativeLayout>

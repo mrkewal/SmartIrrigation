@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmartIrrigation</string>
+    <string name="welcome">WELCOME</string>
+    <string name="smartirrigation_is_heart_of_your_plant">SmartIrrigation is heart of your plant 😉</string>
+    <string name="login">LOGIN</string>
+    <string name="button">Button</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="smartirrigation_is_the_heart_of_your_plant_with_the_help_of_advanced_technology_using_arduino_and_iots_this_app_leverage_the_usages_and_make_the_most_out_of_it">SmartIrrigation is the heart of your plant. With the help of advanced technology; Using Arduino and IoTs this app leverage the usages and make the most out of it 😉</string>
+    <string name="log_in">🔒 Log in</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="new_here_sign_up">New here? Sign Up</string>
+    
+    <string name="tyolink">
+        <a href="https://www.facebook.com/kewalmjn">Facebook</a>
+    </string>
+</resources>
